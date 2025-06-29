@@ -1,4 +1,4 @@
 results/logs
 results/test_outputs
 results/checkpoints
-../SPOT_Projects/MR_HiSum
+./MR_HiSum/
