@@ -1,0 +1,2 @@
+video_31046: yt-dlp error - Command '['yt-dlp', '-f', 'mp4', '-o', 'I:/downloaded_videos\\video_31046.mp4', 'https://www.youtube.com/watch?v=UfxPM5M7INA']' returned non-zero exit status 1.
+video_31046: yt-dlp error - Command '['yt-dlp', '-f', 'mp4', '-o', 'D:/downloaded_videos\\video_31046.mp4', 'https://www.youtube.com/watch?v=UfxPM5M7INA']' returned non-zero exit status 1.

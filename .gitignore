@@ -1,4 +1,7 @@
 results/logs
 results/test_outputs
 results/checkpoints
-./MR_HiSum/
+MR_HiSum/
+
+**/*.csv
+**/*.pth

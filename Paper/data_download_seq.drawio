@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Whale/4.32.315.22 Safari/537.36" version="27.1.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1426" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="oP6DB13o0mlpVg34w4C4-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="60" width="460" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="oP6DB13o0mlpVg34w4C4-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="170" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oP6DB13o0mlpVg34w4C4-0" target="oP6DB13o0mlpVg34w4C4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-0" value="&lt;span style=&quot;font-family: noto, notojp, notokr, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, Dotum, 돋움, sans-serif; text-align: start;&quot;&gt;&lt;font&gt;Download metadata via MR.HiSum.&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="142" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oP6DB13o0mlpVg34w4C4-2" target="oP6DB13o0mlpVg34w4C4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: noto, notojp, notokr, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, Dotum, 돋움, sans-serif;&quot;&gt;Download the video through the video ID of metadata&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="360" width="420" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oP6DB13o0mlpVg34w4C4-12" target="oP6DB13o0mlpVg34w4C4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-12" value="For each video" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="335" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oP6DB13o0mlpVg34w4C4-14" target="oP6DB13o0mlpVg34w4C4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oP6DB13o0mlpVg34w4C4-14" target="oP6DB13o0mlpVg34w4C4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-14" value="&lt;span style=&quot;font-family: noto, notojp, notokr, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, Dotum, 돋움, sans-serif; text-align: start;&quot;&gt;&lt;font&gt;Is there a&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: noto, notojp, notokr, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, Dotum, 돋움, sans-serif; text-align: start;&quot;&gt;&lt;font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&#39;macroMarkersListEntity&#39;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: noto, notojp, notokr, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, Dotum, 돋움, sans-serif; text-align: start;&quot;&gt;&lt;font&gt;in HTML&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: noto, notojp, notokr, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, Dotum, 돋움, sans-serif; text-align: start;&quot;&gt;&lt;font&gt;in the video?&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="382" width="180" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oP6DB13o0mlpVg34w4C4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="413" y="580" />
+              <mxPoint x="230" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: noto, notojp, notokr, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, Dotum, 돋움, sans-serif;&quot;&gt;Download the video through the video ID of metadata&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="343" y="396" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: noto, notojp, notokr, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, Dotum, 돋움, sans-serif;&quot;&gt;Download the video through the video ID of metadata&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-23" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;fillColor=none;fontColor=default;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-24" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;fillColor=none;fontColor=default;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-25" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.286;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oP6DB13o0mlpVg34w4C4-20" target="oP6DB13o0mlpVg34w4C4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oP6DB13o0mlpVg34w4C4-30" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229.8" y="600" as="sourcePoint" />
+            <mxPoint x="229.8" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
