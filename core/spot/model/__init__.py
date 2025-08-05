@@ -1,2 +1,2 @@
-from . import SPOT
+from . import SPOT_res18
 __all__ = ['SPOT']

@@ -7,13 +7,15 @@ from tqdm import tqdm
 import numpy as np
 import pandas as pd
 import csv
+import os
+import glob
 
-from core.spot.model.SPOT import SPOT # ✅ CNN+TimeSformer 모델 import
+from core.spot.model.SPOT_res18 import SPOT # ✅ CNN+TimeSformer 모델 import
 from dataset import TimeSformerHighlightDataset  # ✅ 새로운 DataLoader
 from results import metadata, log_folder
 
 
-video_dir = r"I:\downloaded_videos"
+video_dir = r"J:\downloaded_videos"
 label_dir = log_folder
 metadata_csv = metadata.metadata_csv
 log_data = []
@@ -49,14 +51,41 @@ val_loader = DataLoader(Subset(dataset, val_idx), batch_size=batch_size, shuffle
 print(f"Train set size: {len(train_idx)}")
 print(f"Validation set size: {len(val_idx)}")
 print(f"Test set size: {len(test_idx)}")
-
+CNN = "resnet50"
 # ✅ 모델 초기화 (frame 수만큼 출력)
-model = SPOT(num_frames=frame_count, num_classes=frame_count).to(device)
+model = SPOT(num_frames=24, num_classes=24, cnn_backbone = CNN).to(device)
 criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
-# ✅ 학습 루프
-for epoch in range(epochs):
+# ---------------------------
+# 체크포인트 불러오기
+# ---------------------------
+checkpoint_dir = f"trained_model_{CNN}"
+os.makedirs(checkpoint_dir, exist_ok=True)
+
+# 저장된 체크포인트 중 가장 마지막 파일 찾기
+checkpoint_files = glob.glob(os.path.join(checkpoint_dir, "hybrid_checkpoint_*.pth"))
+start_epoch = 0
+if checkpoint_files:
+    latest_checkpoint = max(checkpoint_files, key=os.path.getctime)
+    print(f"🔄 Found checkpoint: {latest_checkpoint}")
+    checkpoint = torch.load(latest_checkpoint, map_location=device)
+
+    model.load_state_dict(checkpoint['model_state_dict'])
+
+    # optimizer도 저장되어 있다면 로드
+    if 'optimizer_state_dict' in checkpoint:
+        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+
+    start_epoch = checkpoint['epoch'] + 1
+    print(f"Resuming training from epoch {start_epoch}")
+else:
+    print("No checkpoint found. Starting from scratch.")
+
+# ---------------------------
+# 학습 루프 (start_epoch부터 시작)
+# ---------------------------
+for epoch in range(start_epoch, epochs):
     model.train()
     train_loss = 0.0
     for frames, targets in tqdm(train_loader, desc=f"Epoch {epoch+1}/{epochs} - Train"):
@@ -85,7 +114,13 @@ for epoch in range(epochs):
     print(f"[Epoch {epoch+1}] Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f}")
 
     log_data.append({'epoch': epoch + 1, 'train_loss': avg_train_loss, 'val_loss': avg_val_loss})
-    torch.save({'epoch': epoch, 'model_state_dict': model.state_dict()}, f"./trained_model/hybrid_checkpoint_{epoch+1}.pth")
+
+    # 체크포인트 저장 (optimizer 상태도 저장)
+    torch.save({
+        'epoch': epoch,
+        'model_state_dict': model.state_dict(),
+        'optimizer_state_dict': optimizer.state_dict()
+    }, f"{checkpoint_dir}/hybrid_checkpoint_{epoch+1}.pth")
 
 # 로그 저장
 with open("hybrid_training_log.csv", mode='w', newline='') as file:

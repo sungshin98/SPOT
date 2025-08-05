@@ -43,7 +43,12 @@ class TimeSformerHighlightDataset(Dataset):
         label_path = os.path.join(self.label_dir, f"{video_id}_macroMarkersListEntity.csv")
 
         # 1. 비디오 프레임 추출
-        video, _, info = io.read_video(video_path, pts_unit='sec')
+        try:
+            video, _, info = io.read_video(video_path, pts_unit='sec')
+        except Exception as e:
+            print(f"[Warning] Failed to read video {video_id}: {e}")
+            return None  # 문제 있는 비디오는 건너뛰기
+
         total_frames = video.shape[0]
 
         # 프레임 샘플링 (equal spacing)
